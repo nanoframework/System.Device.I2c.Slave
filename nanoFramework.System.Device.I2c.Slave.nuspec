@@ -23,11 +23,11 @@ This package requires a target with System.Device.I2c.Slave v$nativeVersion$ (ch
     </dependencies>
   </metadata>
   <files>
-    <file src="System.Device.I2c\bin\Release\System.Device.I2c.Slave.dll" target="lib\System.Device.I2c.Slave.dll" />
-    <file src="System.Device.I2c\bin\Release\System.Device.I2c.Slave.pdb" target="lib\System.Device.I2c.Slave.pdb" />
-    <file src="System.Device.I2c\bin\Release\System.Device.I2c.Slave.pdbx" target="lib\System.Device.I2c.Slave.pdbx" />
-    <file src="System.Device.I2c\bin\Release\System.Device.I2c.Slave.pe" target="lib\System.Device.I2c.Slave.pe" />
-    <file src="System.Device.I2c\bin\Release\System.Device.I2c.Slave.xml" target="lib\System.Device.I2c.Slave.xml" />
+    <file src="System.Device.I2c.Slave\bin\Release\System.Device.I2c.Slave.dll" target="lib\System.Device.I2c.Slave.dll" />
+    <file src="System.Device.I2c.Slave\bin\Release\System.Device.I2c.Slave.pdb" target="lib\System.Device.I2c.Slave.pdb" />
+    <file src="System.Device.I2c.Slave\bin\Release\System.Device.I2c.Slave.pdbx" target="lib\System.Device.I2c.Slave.pdbx" />
+    <file src="System.Device.I2c.Slave\bin\Release\System.Device.I2c.Slave.pe" target="lib\System.Device.I2c.Slave.pe" />
+    <file src="System.Device.I2c.Slave\bin\Release\System.Device.I2c.Slave.xml" target="lib\System.Device.I2c.Slave.xml" />
     <file src="assets\readme.txt" target="" />
     <file src="README.md" target="docs\" />
     <file src="assets\nf-logo.png" target="images" />
