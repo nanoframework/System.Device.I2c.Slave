@@ -28,7 +28,7 @@ namespace System.Device.I2c
         private readonly byte[] _buffer;
 
         /// <summary>
-        /// The address of the I2C device.
+        /// The address of the I2C slave device.
         /// </summary>
         /// <value> The address of the I2C device.</value>
         public int DeviceAddress => _deviceAddress;
