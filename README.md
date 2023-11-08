@@ -12,7 +12,7 @@ This repository contains the .NET **nanoFramework** System.Device.I2c.Slave clas
 
 | Component | Build Status | NuGet Package |
 |:-|---|---|
-| System.Device.I2c.Slave | [![Build Status](https://dev.azure.com/nanoframework/System.Device.I2c.Slave/_apis/build/status/System.Device.I2c.Slave?repoName=nanoframework%2FSystem.Device.I2c.Slave&branchName=main)](https://dev.azure.com/nanoframework/System.Device.I2c.Slave/_build/latest?definitionId=64&repoName=nanoframework%2FSystem.Device.I2c.Slave&branchName=main) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.System.Device.I2c.Slave.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.System.Device.I2c.Slave/) |
+| System.Device.I2c.Slave | [![Build Status](https://dev.azure.com/nanoframework/System.Device.I2c.Slave/_apis/build/status%2FSystem.Device.I2c.Slave?branchName=main)](https://dev.azure.com/nanoframework/System.Device.I2c.Slave/_build/latest?definitionId=103&branchName=main) | [![NuGet](https://img.shields.io/nuget/v/nanoFramework.System.Device.I2c.Slave.svg?label=NuGet&style=flat&logo=nuget)](https://www.nuget.org/packages/nanoFramework.System.Device.I2c.Slave/) |
 
 ## System.Device.I2c.Slave usage
 
