@@ -2,7 +2,15 @@
 
 ## [**Changes available only in 'Preview' NuGet packages:**](https://github.com/nanoframework/System.Device.I2c.Slave/tree/HEAD)
 
-[Full Changelog](https://github.com/nanoframework/System.Device.I2c.Slave/compare/0f56da3690116539cfe3aa98742442534ce0f702...HEAD)
+[Full Changelog](https://github.com/nanoframework/System.Device.I2c.Slave/compare/v1.0.5...HEAD)
+
+**Documentation and other chores:**
+
+- Update 1 NuGet dependencies [\#3](https://github.com/nanoframework/System.Device.I2c.Slave/pull/3)
+
+## [v1.0.5](https://github.com/nanoframework/System.Device.I2c.Slave/tree/v1.0.5) (2023-11-08)
+
+[Full Changelog](https://github.com/nanoframework/System.Device.I2c.Slave/compare/0f56da3690116539cfe3aa98742442534ce0f702...v1.0.5)
 
 **Documentation and other chores:**
 
