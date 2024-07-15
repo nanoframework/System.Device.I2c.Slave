@@ -66,6 +66,8 @@ namespace System.Device.I2c
 
             // create the buffer
             _buffer = new byte[1];
+
+            NativeInit();
         }
 
         /// <summary>
