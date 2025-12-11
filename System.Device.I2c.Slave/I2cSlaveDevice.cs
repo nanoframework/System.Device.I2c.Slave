@@ -82,7 +82,7 @@ namespace System.Device.I2c
         {
             lock (_syncLock)
             {
-                var buffer = new SpanByte(_buffer);
+                Span<byte> buffer = new Span<byte>(_buffer);
 
                 var count = NativeTransmit(
                     buffer,
@@ -113,7 +113,7 @@ namespace System.Device.I2c
         /// </para>
         /// </remarks>
         public int Read(
-            SpanByte buffer,
+            Span<byte> buffer,
             int timeout = Timeout.Infinite)
         {
             lock (_syncLock)
@@ -141,8 +141,8 @@ namespace System.Device.I2c
                 _buffer[0] = value;
 
                 return NativeTransmit(
-                    null,
-                    new SpanByte(_buffer),
+                    default,
+                    new Span<byte>(_buffer),
                     timeout) == 1;
             }
         }
@@ -165,13 +165,13 @@ namespace System.Device.I2c
         /// </para>
         /// </remarks>
         public int Write(
-            SpanByte buffer,
+            ReadOnlySpan<byte> buffer,
             int timeout = Timeout.Infinite)
         {
             lock (_syncLock)
             {
                 return NativeTransmit(
-                    null,
+                    default,
                     buffer,
                     timeout);
             }
@@ -215,7 +215,10 @@ namespace System.Device.I2c
         private extern void NativeDispose();
 
         [MethodImpl(MethodImplOptions.InternalCall)]
-        private extern int NativeTransmit(SpanByte readBuffer, SpanByte writeBuffer, int timeout);
+        private extern int NativeTransmit(
+            Span<byte> readBuffer,
+            ReadOnlySpan<byte> writeBuffer,
+            int timeout);
 
         #endregion
     }

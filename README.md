@@ -56,10 +56,10 @@ From the I2C master end, assuming that's a .NET nanoFramework device, using the 
 var myI2cDevice = I2cDevice.Create(new I2cConnectionSettings(1, 0x10, I2cBusSpeed.FastMode));
 
 // setup read buffer
-var buffer = new byte[2];
+Span<byte> buffer = new Span<byte>(new byte[2]);
 
 // set address to read from
-myI2cDevice.Write(new byte[] { 0x22 });
+myI2cDevice.Write(new Span<byte>(new byte[] { 0x22 }));
 myI2cDevice.Read(buffer);
 
 // expected buffer content is: 0xBE, 0xEF
